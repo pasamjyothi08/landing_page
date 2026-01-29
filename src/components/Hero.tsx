@@ -14,14 +14,14 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative h-[600px] bg-gradient-to-r from-gray-900/70 to-gray-900/50">
+    <section className="relative h-[600px]">
       <div
         className="absolute inset-0 bg-cover bg-center -z-10"
         style={{
           backgroundImage: 'url(https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1920)',
         }}
       />
-      <div className="absolute inset-0 bg-black/40" />
+      <div className="absolute inset-0 bg-black/20" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
         <div className="flex items-center justify-between h-full">
